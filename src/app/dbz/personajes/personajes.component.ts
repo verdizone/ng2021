@@ -7,7 +7,7 @@ import { Component } from '@angular/core';
 export class PersonajesComponent {
 
 
-
+  //Estos serán los personajes en lo que corregimos...
   personajes:any[] = [];
 
 
