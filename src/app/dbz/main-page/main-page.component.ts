@@ -1,5 +1,6 @@
 import { Component } from '@angular/core';
-import '../interfaces/dbz.interface'
+import { Personajes } from '../interfaces/dbz.interface';
+// import '../interfaces/dbz.interface'
 
 
 @Component({

@@ -1,4 +1,5 @@
-import { Component } from '@angular/core';
+import { Component, Input } from '@angular/core';
+import { Personajes } from '../interfaces/dbz.interface';
 
 @Component({
   selector: 'app-personajes',
@@ -7,8 +8,7 @@ import { Component } from '@angular/core';
 export class PersonajesComponent {
 
 
-  //Estos serán los personajes en lo que corregimos...
-  personajes:any[] = [];
+  @Input('personajesData') personajes:Personajes[] = [];
 
 
 
