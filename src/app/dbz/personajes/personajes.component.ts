@@ -10,6 +10,7 @@ export class PersonajesComponent {
 
   get personajes(){
     return this.dbzService.personajes;
+
   }
 
 
