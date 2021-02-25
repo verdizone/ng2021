@@ -25,6 +25,11 @@ export class MainPageComponent  {
   }
 ];
 
+  agregarNuevoPersonaje(personaje:Personajes){
+    // console.log(personaje);
+    this.personajes.push(personaje);
+  }
+
 
 
 }
