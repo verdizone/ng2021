@@ -15,4 +15,6 @@ export class SidebarComponent {
 
   constructor(  private _gifsService: GifsService, ){}
 
+
+
 }

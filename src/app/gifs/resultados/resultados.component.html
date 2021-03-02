@@ -1,5 +1,26 @@
 <div class="col">
   <hr>
-  <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Labore distinctio, iste accusamus consequatur ut eligendi quos et tempore explicabo delectus, inventore voluptas corporis maiores incidunt illum. Voluptatem quo ab eveniet?</p>
+
+
+   <div class="row">
+     <div *ngFor="let gif of resultados"
+     class="col-md-4 col-sm-6">
+      <div class="card">
+        <img
+        [src]="gif.images.downsized_medium.url"
+        [alt]="gif.title"
+        class="card-image-top
+        ">
+        <div class="card-body">
+          <div class="card-text">
+            <!-- {{ gif.title }} -->
+            {{ gif.images.downsized_medium.url }}
+          </div>
+        </div>
+      </div>
+     </div>
+   </div>
+
+
 
 </div>
